@@ -49,7 +49,7 @@ public class DeereExample
     System.out.println("Now we're going to access a protected resource...");
     OAuthRequest request = new OAuthRequest(Verb.GET, PROTECTED_RESOURCE_URL);
     service.signRequest(accessToken, request);
-    request.addHeader("GData-Version", "3.0");
+    request.addHeader("Accept", "application/vnd.deere.axiom.v3+json");
     Response response = request.send();
     System.out.println("Got it! Lets see what we found...");
     System.out.println();
