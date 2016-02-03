@@ -16,8 +16,8 @@ public class DeereExample
   {
     OAuthService service = new ServiceBuilder()
                                   .provider(DeereApi.class)
-                                  .apiKey("johndeere-j9qZ7U5DosANR7Erw8xNS1Sw")
-                                  .apiSecret("1b2325874e0ba0c4f31cdde96deadf751ff61f36")
+                                  .apiKey("INSERT KEY")
+                                  .apiSecret("INSERT SECRET")
                                   .build();
     Scanner in = new Scanner(System.in);
 
